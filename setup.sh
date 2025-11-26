@@ -33,7 +33,7 @@ log "=========================================="
 # - libc++1, libc++abi1: LLVM C++ runtime (required by some ML libs)
 # =============================================================================
 log ""
-log "[1/6] Installing system packages..."
+log "[1/7] Installing system packages..."
 
 apt update -qq >> "$LOG" 2>&1
 apt install -y -qq \
@@ -56,7 +56,7 @@ log "   OK: System packages installed"
 # Official install script from astral.sh
 # =============================================================================
 log ""
-log "[2/6] Installing uv (fast pip replacement)..."
+log "[2/7] Installing uv (fast pip replacement)..."
 
 curl -LsSf https://astral.sh/uv/install.sh | sh >> "$LOG" 2>&1
 
@@ -72,7 +72,7 @@ log "   OK: uv installed at $HOME/.local/bin/uv"
 # This is how we expose our processing server to the outside world
 # =============================================================================
 log ""
-log "[3/6] Installing jupyter-server-proxy..."
+log "[3/7] Installing jupyter-server-proxy..."
 
 pip install -q jupyter-server-proxy >> "$LOG" 2>&1
 
@@ -86,7 +86,7 @@ log "   OK: jupyter-server-proxy installed"
 # This saves ~10GB of re-downloading models each time
 # =============================================================================
 log ""
-log "[4/6] Setting up cache symlinks..."
+log "[4/7] Setting up cache symlinks..."
 
 # Create persistent cache directories
 mkdir -p /notebooks/.cache/fairseq2
@@ -122,7 +122,7 @@ log "   OK: Cache symlinks configured"
 # - Jupyter kernels will inherit these via the environment
 # =============================================================================
 log ""
-log "[5/6] Configuring environment variables (system-wide)..."
+log "[5/7] Configuring environment variables (system-wide)..."
 
 # /etc/environment - System-wide, read by PAM (affects ALL processes including Jupyter kernels)
 cat >> /etc/environment << 'EOF'
@@ -169,7 +169,7 @@ log "      - ~/.bashrc (interactive shells)"
 # Server runs on port 5000, accessible via /proxy/5000/
 # =============================================================================
 log ""
-log "[6/6] Starting ASR server..."
+log "[6/7] Starting ASR server..."
 
 ASR_VENV="/notebooks/asr"
 ASR_SERVER="/notebooks/asr_server.py"
@@ -218,6 +218,60 @@ else
 fi
 
 # =============================================================================
+# 7. START DIARIZE SERVER (Background)
+# =============================================================================
+# Launch the Pyannote Diarization FastAPI server in background
+# Server runs on port 5001, accessible via /proxy/5001/
+# =============================================================================
+log ""
+log "[7/7] Starting Diarize server..."
+
+DIARIZE_VENV="/notebooks/diarize"
+DIARIZE_SERVER="/notebooks/diarize_server.py"
+DIARIZE_LOG="/notebooks/diarize_server.log"
+DIARIZE_PID="/notebooks/diarize_server.pid"
+
+if [ -d "$DIARIZE_VENV" ] && [ -f "$DIARIZE_SERVER" ]; then
+    # Check if already running
+    if [ -f "$DIARIZE_PID" ]; then
+        OLD_PID=$(cat "$DIARIZE_PID" 2>/dev/null)
+        if kill -0 "$OLD_PID" 2>/dev/null; then
+            log "   Diarize server already running (PID: $OLD_PID)"
+        else
+            rm -f "$DIARIZE_PID"
+        fi
+    fi
+
+    # Start if not running
+    if [ ! -f "$DIARIZE_PID" ]; then
+        log "   Launching Diarize server in background..."
+
+        # Launch with proper environment (including cache paths)
+        (
+            cd /notebooks
+            source "$DIARIZE_VENV/bin/activate"
+            export LD_LIBRARY_PATH="$DIARIZE_VENV/lib:$LD_LIBRARY_PATH"
+            export HF_HOME="/notebooks/.cache/huggingface"
+            export TORCH_HOME="/notebooks/.cache/torch"
+            nohup python "$DIARIZE_SERVER" > "$DIARIZE_LOG" 2>&1 &
+            echo $! > "$DIARIZE_PID"
+        )
+
+        # Wait briefly and check if started
+        sleep 2
+        if [ -f "$DIARIZE_PID" ] && kill -0 "$(cat "$DIARIZE_PID")" 2>/dev/null; then
+            log "   OK: Diarize server started (PID: $(cat "$DIARIZE_PID"))"
+        else
+            log "   WARN: Diarize server may not have started - check $DIARIZE_LOG"
+        fi
+    fi
+else
+    log "   SKIP: Diarize venv or server not found"
+    log "      - venv: $DIARIZE_VENV (exists: $([ -d "$DIARIZE_VENV" ] && echo yes || echo no))"
+    log "      - server: $DIARIZE_SERVER (exists: $([ -f "$DIARIZE_SERVER" ] && echo yes || echo no))"
+fi
+
+# =============================================================================
 # DONE!
 # =============================================================================
 log ""
@@ -232,12 +286,14 @@ log "  - Jupyter: jupyter-server-proxy"
 log ""
 log "Services:"
 log "  - ASR server: port 5000 (via /proxy/5000/)"
+log "  - Diarize server: port 5001 (via /proxy/5001/)"
 log ""
 log "Paths:"
 log "  - ASR venv: /notebooks/asr"
+log "  - Diarize venv: /notebooks/diarize"
 log "  - cache: /notebooks/.cache"
 log "  - uv: ~/.local/bin/uv"
-log "  - logs: /notebooks/startup.log, /notebooks/asr_server.log"
+log "  - logs: startup.log, asr_server.log, diarize_server.log"
 log ""
 log "Starting Jupyter Lab..."
 log "=========================================="
