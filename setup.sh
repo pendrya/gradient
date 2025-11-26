@@ -33,7 +33,7 @@ log "=========================================="
 # - libc++1, libc++abi1: LLVM C++ runtime (required by some ML libs)
 # =============================================================================
 log ""
-log "[1/6] Installing system packages..."
+log "[1/5] Installing system packages..."
 
 apt update -qq >> "$LOG" 2>&1
 apt install -y -qq \
@@ -56,7 +56,7 @@ log "   OK: System packages installed"
 # Official install script from astral.sh
 # =============================================================================
 log ""
-log "[2/6] Installing uv (fast pip replacement)..."
+log "[2/5] Installing uv (fast pip replacement)..."
 
 curl -LsSf https://astral.sh/uv/install.sh | sh >> "$LOG" 2>&1
 
@@ -72,7 +72,7 @@ log "   OK: uv installed at $HOME/.local/bin/uv"
 # This is how we expose our processing server to the outside world
 # =============================================================================
 log ""
-log "[3/6] Installing jupyter-server-proxy..."
+log "[3/5] Installing jupyter-server-proxy..."
 
 pip install -q jupyter-server-proxy >> "$LOG" 2>&1
 
