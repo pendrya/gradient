@@ -172,7 +172,7 @@ log ""
 log "[6/6] Starting ASR server..."
 
 ASR_VENV="/notebooks/asr"
-ASR_SERVER="/notebooks/asr_serve.py"
+ASR_SERVER="/notebooks/asr_server.py"
 ASR_LOG="/notebooks/asr_server.log"
 ASR_PID="/notebooks/asr_server.pid"
 
