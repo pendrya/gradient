@@ -191,11 +191,14 @@ if [ -d "$ASR_VENV" ] && [ -f "$ASR_SERVER" ]; then
     if [ ! -f "$ASR_PID" ]; then
         log "   Launching ASR server in background..."
 
-        # Launch with proper environment
+        # Launch with proper environment (including cache paths)
         (
             cd /notebooks
             source "$ASR_VENV/bin/activate"
             export LD_LIBRARY_PATH="$ASR_VENV/lib:$LD_LIBRARY_PATH"
+            export FAIRSEQ2_CACHE_DIR="/notebooks/.cache/fairseq2"
+            export HF_HOME="/notebooks/.cache/huggingface"
+            export TORCH_HOME="/notebooks/.cache/torch"
             nohup python "$ASR_SERVER" > "$ASR_LOG" 2>&1 &
             echo $! > "$ASR_PID"
         )
