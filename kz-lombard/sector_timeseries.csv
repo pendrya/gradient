@@ -1,0 +1,11 @@
+﻿date,companies,assets_bn,portfolio_bn,equity_bn,net_profit_cum_bn,source
+01.01.2024,519,315.3,199.4,186.4,10.9,"NBK file 110308 «Сведения о ломбардах РК», per-company rows summed"
+01.04.2024,514,324.6,219.2,193.2,8.7,"NBK file 110308 «Сведения о ломбардах РК», per-company rows summed"
+01.07.2024,505,355.0,229.3,216.9,23.7,"NBK file 110308 «Сведения о ломбардах РК», per-company rows summed"
+01.10.2024,491,385.3,247.7,233.4,21.8,"NBK file 110308 «Сведения о ломбардах РК», per-company rows summed"
+30.06.2025,470,,321.5,,32.1,ranking.kz / Kapital.kz (H1 2025)
+01.01.2026,,,417.6,,,"NBK file 134960, aggregate microcredits to individuals"
+31.03.2026,466,,481.3,,54.7,ranking.kz / Kapital.kz (Q1 2026)
+01.04.2026,,,481.3,,,"NBK file 134960, aggregate microcredits to individuals"
+01.07.2026,,,453.8,,,"NBK file 134960, aggregate microcredits to individuals"
+27.07.2026,373,,,,,АРРФР register via profinance.kz: 373 lombards / 1792 registered filials

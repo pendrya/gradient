@@ -1,0 +1,4657 @@
+[
+ {
+  "slug": "1lombard",
+  "name": "Birinshi Lombard",
+  "branches": 278,
+  "cities": 64,
+  "geo": "Айтеке-би, Аксу, Актау, Актобе, Алга и другие",
+  "entities": [
+   {
+    "name": "ТОО «Birinshi Lombard (Бірінші Ломбард)»",
+    "bin": "190540020930"
+   }
+  ]
+ },
+ {
+  "slug": "7-say-lombard",
+  "name": "7-SAY ЛОМБАРД",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «7-SAY ЛОМБАРД»",
+    "bin": "180540011424"
+   }
+  ]
+ },
+ {
+  "slug": "a-s-lombard",
+  "name": "A S Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «A S Ломбард»",
+    "bin": "210240030478"
+   }
+  ]
+ },
+ {
+  "slug": "adamant24-lombard",
+  "name": "Адамант24-Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Адамант24-Ломбард»",
+    "bin": "170840013485"
+   }
+  ]
+ },
+ {
+  "slug": "ai-lombard",
+  "name": "Ai ЛОМБАРД",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ai ЛОМБАРД»",
+    "bin": "101240010552"
+   }
+  ]
+ },
+ {
+  "slug": "ai-n-lombard",
+  "name": "Ай-Н ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ай-Н Ломбард»",
+    "bin": "151140025734"
+   }
+  ]
+ },
+ {
+  "slug": "ais-lombard-nesie",
+  "name": "AIS Ломбард Несие",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «AIS Ломбард Несие»",
+    "bin": "220940036038"
+   }
+  ]
+ },
+ {
+  "slug": "aksha-lombard",
+  "name": "Акша-Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Акша-Ломбард»",
+    "bin": "060240003913"
+   }
+  ]
+ },
+ {
+  "slug": "alfa-lombard",
+  "name": "Альфа Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Альфа Ломбард»",
+    "bin": "140540001816"
+   }
+  ]
+ },
+ {
+  "slug": "alkha",
+  "name": "ЛОМБАРД «АЛҚА»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Алқа»",
+    "bin": "110540014416"
+   }
+  ]
+ },
+ {
+  "slug": "almanakh-lombard",
+  "name": "Альманах Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Альманах Ломбард»",
+    "bin": "090440007126"
+   }
+  ]
+ },
+ {
+  "slug": "almaz-group-lombard",
+  "name": "Алмаз Group ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Алмаз Group ломбард»",
+    "bin": "160440015965"
+   }
+  ]
+ },
+ {
+  "slug": "altyn-aqsha-lombard",
+  "name": "АЛТЫН АҚША ЛОМБАРД",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «АЛТЫН АҚША ЛОМБАРД»",
+    "bin": "150640001851"
+   }
+  ]
+ },
+ {
+  "slug": "altyn-arna-lombard",
+  "name": "Алтын Арна Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Алтын Арна Ломбард»",
+    "bin": "190140008957"
+   }
+  ]
+ },
+ {
+  "slug": "altyn-lombard-2007",
+  "name": "Алтын - Ломбард 2007",
+  "branches": 6,
+  "cities": null,
+  "geo": "Астана",
+  "entities": [
+   {
+    "name": "ТОО «Алтын - Ломбард 2007»",
+    "bin": "061140024707"
+   }
+  ]
+ },
+ {
+  "slug": "altyn-lombard-kompani",
+  "name": "Алтын-Ломбард компани",
+  "branches": 3,
+  "cities": null,
+  "geo": "Экибастуз",
+  "entities": [
+   {
+    "name": "ТОО «Алтын-Ломбард компани»",
+    "bin": "081040007668"
+   }
+  ]
+ },
+ {
+  "slug": "altyn-sapa-lombardy",
+  "name": "Алтын Сапа Ломбарды",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Алтын Сапа Ломбарды»",
+    "bin": "160340004272"
+   }
+  ]
+ },
+ {
+  "slug": "altynka-lombard",
+  "name": "АлтынКа Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «АлтынКа Ломбард»",
+    "bin": "160240003052"
+   }
+  ]
+ },
+ {
+  "slug": "altynlombard",
+  "name": "Алтын ломбард",
+  "branches": 6,
+  "cities": null,
+  "geo": "Астана",
+  "entities": [
+   {
+    "name": "ТОО «Алтын 585 Ломбард»",
+    "bin": "191240015659"
+   }
+  ]
+ },
+ {
+  "slug": "anar-lombard-anar-lombard",
+  "name": "ANAR LOMBARD (АНАР ЛОМБАРД)",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ANAR LOMBARD (АНАР ЛОМБАРД)»",
+    "bin": "221041020855"
+   }
+  ]
+ },
+ {
+  "slug": "aqtay-lombard",
+  "name": "Ақтай-Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ақтай-Ломбард»",
+    "bin": "140240024735"
+   }
+  ]
+ },
+ {
+  "slug": "ar-ay-2012-lombardy",
+  "name": "«Ар - Ай 2012» Ломбарды",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ар - Ай 2012» Ломбарды»",
+    "bin": "190740006506"
+   }
+  ]
+ },
+ {
+  "slug": "arsat-lombard",
+  "name": "Арсат Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Арсат Ломбард»",
+    "bin": "170140002914"
+   }
+  ]
+ },
+ {
+  "slug": "ased-lombard",
+  "name": "ASED-Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ASED-Ломбард»",
+    "bin": "160240012636"
+   }
+  ]
+ },
+ {
+  "slug": "assy-lombard",
+  "name": "Ассы-Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ассы-Ломбард»",
+    "bin": "081240008772"
+   }
+  ]
+ },
+ {
+  "slug": "ast-lombard-777",
+  "name": "АСТ-Ломбард 777",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «АСТ-Ломбард 777»",
+    "bin": "081140007433"
+   }
+  ]
+ },
+ {
+  "slug": "astana-lombard-avto",
+  "name": "Астана Ломбард Авто",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Астана Ломбард Авто»",
+    "bin": "190740002701"
+   }
+  ]
+ },
+ {
+  "slug": "astanalombard",
+  "name": "Астана Ломбард-9",
+  "branches": 15,
+  "cities": 5,
+  "geo": "Атбасар, Кокшетау, Шымкент, Щучинск, Экибастуз",
+  "entities": [
+   {
+    "name": "ТОО «Астана Ломбард-9»",
+    "bin": "161040023111"
+   },
+   {
+    "name": "ТОО «Астана Ломбард-8»",
+    "bin": "161040023022"
+   },
+   {
+    "name": "ТОО «Астана Ломбард-7»",
+    "bin": "160840012231"
+   },
+   {
+    "name": "ТОО «Астана Ломбард-5»",
+    "bin": "160640001128"
+   }
+  ]
+ },
+ {
+  "slug": "astcredit",
+  "name": "AST Кредит",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард AST Кредит»",
+    "bin": "160140023330"
+   }
+  ]
+ },
+ {
+  "slug": "astra-lombard",
+  "name": "Астра-Ломбард",
+  "branches": 9,
+  "cities": 2,
+  "geo": "Алматы, Астана",
+  "entities": [
+   {
+    "name": "ТОО «Астра-Ломбард»",
+    "bin": "950840000213"
+   }
+  ]
+ },
+ {
+  "slug": "asyl-lombard",
+  "name": "Асыл-Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Асыл-Ломбард»",
+    "bin": "960840000136"
+   }
+  ]
+ },
+ {
+  "slug": "auto-lombard-plus",
+  "name": "Ломбард Автобизнес Плюс",
+  "branches": 2,
+  "cities": 2,
+  "geo": "Алматы, Семей",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Автобизнес Плюс»",
+    "bin": "080640004781"
+   }
+  ]
+ },
+ {
+  "slug": "auto-money",
+  "name": "Ломбард «Auto Money»",
+  "branches": 4,
+  "cities": 3,
+  "geo": "Алматы, Астана, Тараз",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Auto money (Авто мани)»",
+    "bin": "180840014955"
+   }
+  ]
+ },
+ {
+  "slug": "autocash",
+  "name": "«Autocash» - Автоломбард Алматы",
+  "branches": 7,
+  "cities": null,
+  "geo": "Алматы",
+  "entities": [
+   {
+    "name": "ТОО «АвтоЛомбард «Премиум-Кредит»",
+    "bin": "150240007519"
+   },
+   {
+    "name": "ТОО «ALG Ломбард»",
+    "bin": "050540003893"
+   },
+   {
+    "name": "ТОО «Авто Ломбард» Алматы-Кредит»",
+    "bin": "150240012971"
+   },
+   {
+    "name": "ТОО «Автоломбард «Quick finance»",
+    "bin": "160940002892"
+   }
+  ]
+ },
+ {
+  "slug": "autozalog",
+  "name": "Ломбард «Первый плюс»",
+  "branches": 2,
+  "cities": 2,
+  "geo": "Караганда, Кокшетау",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Первый плюс»",
+    "bin": "200440003644"
+   }
+  ]
+ },
+ {
+  "slug": "avangard-1-lombard",
+  "name": "Авангард №1 Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Авангард №1 Ломбард»",
+    "bin": "221040027356"
+   }
+  ]
+ },
+ {
+  "slug": "avans-lombard",
+  "name": "Аванс Ломбард",
+  "branches": 19,
+  "cities": 3,
+  "geo": "Алматы, Астана, Караганда",
+  "entities": [
+   {
+    "name": "ТОО «Аванс Ломбард»",
+    "bin": "100640008770"
+   }
+  ]
+ },
+ {
+  "slug": "avansfinans-lombard",
+  "name": "АвансФинанс Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «АвансФинанс Ломбард»",
+    "bin": "170840031824"
+   }
+  ]
+ },
+ {
+  "slug": "avto-lombard",
+  "name": "Hayat Capital",
+  "branches": 7,
+  "cities": null,
+  "geo": "Алматы",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Hayat Capital»",
+    "bin": "200440003565"
+   }
+  ]
+ },
+ {
+  "slug": "avto-mig-lombard",
+  "name": "АВТО МИГ ЛОМБАРД",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «АВТО МИГ ЛОМБАРД»",
+    "bin": "170140009023"
+   }
+  ]
+ },
+ {
+  "slug": "avto-rost-lombard",
+  "name": "Авто Рост Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Авто Рост Ломбард»",
+    "bin": "161040005572"
+   }
+  ]
+ },
+ {
+  "slug": "avtolombard-almaty-vivat-finans",
+  "name": "Автоломбард Алматы «Виват Финанс»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Автоломбард Алматы «Виват Финанс»",
+    "bin": "081240009808"
+   }
+  ]
+ },
+ {
+  "slug": "avtolombard-zhana-kredit",
+  "name": "АВТОломбард Жана Кредит",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «АВТОломбард Жана Кредит»",
+    "bin": "240340006216"
+   }
+  ]
+ },
+ {
+  "slug": "baiterek-lombard",
+  "name": "Dem Ломбард",
+  "branches": 5,
+  "cities": null,
+  "geo": "Алматы",
+  "entities": [
+   {
+    "name": "ТОО «Бәйтерек Ломбард»",
+    "bin": "221140052737"
+   }
+  ]
+ },
+ {
+  "slug": "balhash-lombard",
+  "name": "Балхаш-Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Балхаш-Ломбард»",
+    "bin": "031040004743"
+   }
+  ]
+ },
+ {
+  "slug": "bastau-lombard-a",
+  "name": "Бастау-Ломбард-А",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Бастау-Ломбард-А»",
+    "bin": "110840018737"
+   }
+  ]
+ },
+ {
+  "slug": "batys-platina-lombard",
+  "name": "Батыс Платина ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Батыс Платина ломбард»",
+    "bin": "110940017673"
+   }
+  ]
+ },
+ {
+  "slug": "birlik-lombard",
+  "name": "Бірлік-Ломбард",
+  "branches": 2,
+  "cities": null,
+  "geo": "Талдыкорган",
+  "entities": [
+   {
+    "name": "ТОО «Бірлік-Ломбард»",
+    "bin": "060340012728"
+   }
+  ]
+ },
+ {
+  "slug": "biznes-kz-lombard",
+  "name": "Бизнес KZ - Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Бизнес KZ - Ломбард»",
+    "bin": "170640029092"
+   }
+  ]
+ },
+ {
+  "slug": "bolim-lombard",
+  "name": "Бөлім-Ломбард",
+  "branches": 30,
+  "cities": null,
+  "geo": "Астана",
+  "entities": [
+   {
+    "name": "ТОО «Бөлім-Ломбард 1»",
+    "bin": "210940030146"
+   },
+   {
+    "name": "ТОО «Болим-Ломбард»",
+    "bin": "950240002565"
+   }
+  ]
+ },
+ {
+  "slug": "br-kapital-lombard",
+  "name": "BR-Kapital Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «BR-Kapital Ломбард»",
+    "bin": "220940009299"
+   }
+  ]
+ },
+ {
+  "slug": "brend-lombard",
+  "name": "Бренд Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Бренд Ломбард»",
+    "bin": "140140020729"
+   }
+  ]
+ },
+ {
+  "slug": "chasovoy-lombard",
+  "name": "Часовой Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Часовой Ломбард»",
+    "bin": "240540020378"
+   }
+  ]
+ },
+ {
+  "slug": "creditkz",
+  "name": "Ломбард Кредит kz",
+  "branches": 5,
+  "cities": null,
+  "geo": "Астана",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Кредит kz»",
+    "bin": "150740018324"
+   }
+  ]
+ },
+ {
+  "slug": "creditline",
+  "name": "CreditLine Автоломбард в Алматы",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «CreditLine»",
+    "bin": "100740008000"
+   }
+  ]
+ },
+ {
+  "slug": "d-lombard-2020",
+  "name": "Д-Ломбард 2020",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Д-Ломбард 2020»",
+    "bin": "191240007241"
+   }
+  ]
+ },
+ {
+  "slug": "dau-lombard",
+  "name": "DAU - ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «DAU - ломбард»",
+    "bin": "220140026021"
+   }
+  ]
+ },
+ {
+  "slug": "dcredit",
+  "name": "Ломбард «Салым»",
+  "branches": 2,
+  "cities": null,
+  "geo": "Алматы",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Салым»",
+    "bin": "930640000202"
+   }
+  ]
+ },
+ {
+  "slug": "ddd-m-lombard",
+  "name": "DDD-M Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «DDD-M Ломбард»",
+    "bin": "180240018778"
+   }
+  ]
+ },
+ {
+  "slug": "degrandprixi",
+  "name": "De Grand Prixi",
+  "branches": 13,
+  "cities": null,
+  "geo": "Усть-Каменогорск",
+  "entities": [
+   {
+    "name": "ТОО «De Grand Prixi Ломбард»",
+    "bin": "080740009934"
+   }
+  ]
+ },
+ {
+  "slug": "delta-lombard",
+  "name": "Дельта Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Дельта Ломбард»",
+    "bin": "230140009003"
+   }
+  ]
+ },
+ {
+  "slug": "delux-lombard",
+  "name": "Delux-Lombard",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Delux-Lombard»",
+    "bin": "150940022101"
+   }
+  ]
+ },
+ {
+  "slug": "demeu-lombard",
+  "name": "Демеу Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Демеу Ломбард»",
+    "bin": "100440014577"
+   }
+  ]
+ },
+ {
+  "slug": "dengimarket",
+  "name": "Ломбард «Деньги населению»",
+  "branches": 302,
+  "cities": 123,
+  "geo": "Абай, Аксай, Аксу, Аксукент, Актау и другие",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Деньги населению»",
+    "bin": "141240005256"
+   }
+  ]
+ },
+ {
+  "slug": "di-asyl-lombard",
+  "name": "Ди Асыл Ломбард",
+  "branches": 3,
+  "cities": null,
+  "geo": "Актобе",
+  "entities": [
+   {
+    "name": "ТОО «Ди Асыл Ломбард»",
+    "bin": "171040035137"
+   }
+  ]
+ },
+ {
+  "slug": "di-lombard-express",
+  "name": "DI LOMBARD express",
+  "branches": 2,
+  "cities": 2,
+  "geo": "Алматы, Конаев",
+  "entities": [
+   {
+    "name": "ТОО «DI LOMBARD express»",
+    "bin": "180540035917"
+   }
+  ]
+ },
+ {
+  "slug": "diade-lombard",
+  "name": "Диадэ-Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Диадэ-Ломбард»",
+    "bin": "010940002095"
+   }
+  ]
+ },
+ {
+  "slug": "dim-lombard",
+  "name": "ДИМ-ЛОМБАРД",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ДИМ-ЛОМБАРД»",
+    "bin": "180540004302"
+   }
+  ]
+ },
+ {
+  "slug": "donlombard",
+  "name": "ДонЛомбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ДонЛомбард»",
+    "bin": "180640030078"
+   }
+  ]
+ },
+ {
+  "slug": "dos-lombard-kz",
+  "name": "Dos Ломбард kz",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Dos Ломбард kz»",
+    "bin": "210840020650"
+   }
+  ]
+ },
+ {
+  "slug": "dos-lombard-plyus",
+  "name": "ДОС ЛОМБАРД ПЛЮС",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ДОС ЛОМБАРД ПЛЮС»",
+    "bin": "180340010508"
+   }
+  ]
+ },
+ {
+  "slug": "duman-lombard",
+  "name": "Думан Ломбард",
+  "branches": 2,
+  "cities": null,
+  "geo": "Актау",
+  "entities": [
+   {
+    "name": "ТОО «Думан Ломбард»",
+    "bin": "080840014687"
+   }
+  ]
+ },
+ {
+  "slug": "eko-lombard-real",
+  "name": "ЭКО Ломбард РЕАЛ",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ЭКО Ломбард РЕАЛ»",
+    "bin": "210340013927"
+   }
+  ]
+ },
+ {
+  "slug": "eko-lombard",
+  "name": "ЭКО - Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ЭКО - Ломбард»",
+    "bin": "150240018039"
+   }
+  ]
+ },
+ {
+  "slug": "elex-lombard-uk",
+  "name": "ELEX LOMBARD UK",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ELEX LOMBARD UK»",
+    "bin": "151240006484"
+   }
+  ]
+ },
+ {
+  "slug": "elit-kredit-lombard",
+  "name": "Элит Кредит Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Элит Кредит Ломбард»",
+    "bin": "170140002647"
+   }
+  ]
+ },
+ {
+  "slug": "elit-lombard-kz",
+  "name": "Элит Ломбард KZ",
+  "branches": 11,
+  "cities": null,
+  "geo": "Костанай",
+  "entities": [
+   {
+    "name": "ТОО «Элит Ломбард KZ»",
+    "bin": "130240014072"
+   }
+  ]
+ },
+ {
+  "slug": "elitelombard",
+  "name": "€lite Ломбард",
+  "branches": 32,
+  "cities": 4,
+  "geo": "Аксу, Алматы, Астана, Талгар",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «€LIT» (Евролит)» Астана»",
+    "bin": "171040010111"
+   },
+   {
+    "name": "ТОО «Ломбард «€lit» (Евролит)»",
+    "bin": "181140033919"
+   },
+   {
+    "name": "ТОО «Ломбард Евролит»",
+    "bin": "190340003160"
+   },
+   {
+    "name": "ТОО «Ломбард «€lit» (Евролит)» Павлодар",
+    "bin": "090240010022"
+   }
+  ]
+ },
+ {
+  "slug": "esil-mk-lombard",
+  "name": "Есиль-МК Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Есиль-МК Ломбард»",
+    "bin": "081040016984"
+   }
+  ]
+ },
+ {
+  "slug": "evro-lombard-1",
+  "name": "Евро-Ломбард №1",
+  "branches": 4,
+  "cities": null,
+  "geo": "Астана",
+  "entities": [
+   {
+    "name": "ТОО «Евро-Ломбард №1»",
+    "bin": "160740024370"
+   }
+  ]
+ },
+ {
+  "slug": "f-lombard",
+  "name": "F-Lombard",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «F-Lombard»",
+    "bin": "210240033908"
+   }
+  ]
+ },
+ {
+  "slug": "gold-yug-lombard",
+  "name": "Голд-Юг Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Голд-Юг Ломбард»",
+    "bin": "180940031552"
+   }
+  ]
+ },
+ {
+  "slug": "goldencapital",
+  "name": "Golden Capital",
+  "branches": 16,
+  "cities": 2,
+  "geo": "Караганда, Темиртау",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Golden Capital -2007»",
+    "bin": "070440014620"
+   }
+  ]
+ },
+ {
+  "slug": "good-lombard",
+  "name": "GOOD - ЛОМБАРД",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «GOOD - ЛОМБАРД»",
+    "bin": "151040010237"
+   }
+  ]
+ },
+ {
+  "slug": "ikomek",
+  "name": "iKomek ломбард",
+  "branches": 11,
+  "cities": null,
+  "geo": "Алматы",
+  "entities": [
+   {
+    "name": "ТОО «iKomek ломбард»",
+    "bin": "250740027057"
+   }
+  ]
+ },
+ {
+  "slug": "invest-gold",
+  "name": "Ломбард INVEST GOLD",
+  "branches": 10,
+  "cities": 2,
+  "geo": "Караганда, Темиртау",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Invest Gold»",
+    "bin": "191240008854"
+   }
+  ]
+ },
+ {
+  "slug": "invest-mikro-lombard",
+  "name": "Инвест микро ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Инвест микро ломбард»",
+    "bin": "170140005621"
+   }
+  ]
+ },
+ {
+  "slug": "isker-lombard",
+  "name": "Іскер ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Іскер ломбард»",
+    "bin": "130540003781"
+   }
+  ]
+ },
+ {
+  "slug": "k-lombard",
+  "name": "К-Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «К-Ломбард»",
+    "bin": "130540006250"
+   }
+  ]
+ },
+ {
+  "slug": "kainar-lombard",
+  "name": "«KAINAR» LOMBARD",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «KAINAR» LOMBARD»",
+    "bin": "120740012984"
+   }
+  ]
+ },
+ {
+  "slug": "kapital-lombard-plyus",
+  "name": "Капитал Ломбард Плюс",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Капитал Ломбард Плюс»",
+    "bin": "180840022976"
+   }
+  ]
+ },
+ {
+  "slug": "karat-lombard",
+  "name": "Карат Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Карат Ломбард»",
+    "bin": "220740042957"
+   }
+  ]
+ },
+ {
+  "slug": "kaspian-kredit-lombard",
+  "name": "Каспиан Кредит Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Каспиан Кредит Ломбард»",
+    "bin": "240840023571"
+   }
+  ]
+ },
+ {
+  "slug": "kaspiy-lombard",
+  "name": "Каспий ломбард",
+  "branches": 3,
+  "cities": null,
+  "geo": "Актау",
+  "entities": [
+   {
+    "name": "ТОО «Каспий ломбард»",
+    "bin": "120240000229"
+   }
+  ]
+ },
+ {
+  "slug": "kassa-lombard-almaty",
+  "name": "Касса Ломбард Алматы",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Касса Ломбард Алматы»",
+    "bin": "191240029867"
+   }
+  ]
+ },
+ {
+  "slug": "kassa-lombard-taldykorgan",
+  "name": "КАССА Ломбард Талдыкорган",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «КАССА Ломбард Талдыкорган»",
+    "bin": "191240029887"
+   }
+  ]
+ },
+ {
+  "slug": "kassa-lombard-zhetisu",
+  "name": "Касса Ломбард Жетісу",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Касса Ломбард Жетісу»",
+    "bin": "191240029897"
+   }
+  ]
+ },
+ {
+  "slug": "kassa-lombard",
+  "name": "КАССА Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «КАССА Ломбард»",
+    "bin": "150240006615"
+   }
+  ]
+ },
+ {
+  "slug": "kaz-lombard-01",
+  "name": "KAZ ЛОМБАРД 01",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «KAZ ЛОМБАРД 01»",
+    "bin": "130440008739"
+   }
+  ]
+ },
+ {
+  "slug": "khan-b-lombard",
+  "name": "Хан Б Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Хан Б Ломбард»",
+    "bin": "180240007287"
+   }
+  ]
+ },
+ {
+  "slug": "kiwi-gold-s-lombard",
+  "name": "Kiwi Gold S Ломбард",
+  "branches": 11,
+  "cities": null,
+  "geo": "Астана",
+  "entities": [
+   {
+    "name": "ТОО «Kiwi Gold S Ломбард»",
+    "bin": "160740019949"
+   }
+  ]
+ },
+ {
+  "slug": "komek-lombard",
+  "name": "Комек Ломбард",
+  "branches": 5,
+  "cities": 3,
+  "geo": "Алматы, Жезказган, Сатпаев",
+  "entities": [
+   {
+    "name": "ТОО «Комек ломбард-7»",
+    "bin": "100940002910"
+   },
+   {
+    "name": "ТОО «Комек ломбард»",
+    "bin": "081140005467"
+   }
+  ]
+ },
+ {
+  "slug": "kontakt-lombard",
+  "name": "Контакт Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Контакт Ломбард»",
+    "bin": "180140028127"
+   }
+  ]
+ },
+ {
+  "slug": "kredit-servis-lombard",
+  "name": "Кредит Сервис Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Кредит Сервис Ломбард»",
+    "bin": "200540016848"
+   }
+  ]
+ },
+ {
+  "slug": "kz-lombard",
+  "name": "KZ Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «KZ Ломбард»",
+    "bin": "070140004058"
+   }
+  ]
+ },
+ {
+  "slug": "lc-lombard",
+  "name": "LC LOMBARD (ЭлСи ЛОМБАРД)",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «LC LOMBARD (ЭлСи ЛОМБАРД)»",
+    "bin": "250140019522"
+   }
+  ]
+ },
+ {
+  "slug": "like-lombard",
+  "name": "LIKE ЛОМБАРД",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «LIKE ЛОМБАРД»",
+    "bin": "160140006122"
+   }
+  ]
+ },
+ {
+  "slug": "lmn",
+  "name": "Lemon LOMBARD",
+  "branches": 3,
+  "cities": 3,
+  "geo": "Алматы, Туркестан, Шымкент",
+  "entities": [
+   {
+    "name": "ТОО «Lemon LOMBARD»",
+    "bin": "100740015915"
+   },
+   {
+    "name": "ТОО «Лемон Лэнд Ломбард»",
+    "bin": "170540014050"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-1-nur-saya",
+  "name": "Ломбард №1 Нур Сая",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард №1 Нур Сая»",
+    "bin": "201140024966"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-5-zvyozd",
+  "name": "Ломбард 5 Звёзд",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард 5 Звёзд»",
+    "bin": "080940012416"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-7-zvezd",
+  "name": "Ломбард 7 звезд",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард 7 звезд»",
+    "bin": "160640014588"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-750-nur-zhas",
+  "name": "Ломбард 750 Нұр-Жас",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард 750 Нұр-Жас»",
+    "bin": "151240000940"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-888-kz",
+  "name": "ЛОМБАРД 888.KZ",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ЛОМБАРД 888.KZ»",
+    "bin": "170340023667"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-a-d-s",
+  "name": "Ломбард A.D.S",
+  "branches": 5,
+  "cities": 4,
+  "geo": "Кентау (с",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард A.D.S»",
+    "bin": "170640026870"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-abinur",
+  "name": "Diplomat (Abinur)",
+  "branches": 2,
+  "cities": null,
+  "geo": "Шымкент",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард ABINUR»",
+    "bin": "181040015719"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-adamas",
+  "name": "Ломбард «Адамас»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Адамас»",
+    "bin": "100540013357"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-ak-i-k",
+  "name": "Ломбард «АК и К»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «АК и К»",
+    "bin": "080240000168"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-akvilon",
+  "name": "Ломбард «Аквилон»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Аквилон»",
+    "bin": "160240014008"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-al-farabi",
+  "name": "Ломбард «Аль-Фараби»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Аль-Фараби»",
+    "bin": "080640014858"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-alan",
+  "name": "Ломбард Алан",
+  "branches": 2,
+  "cities": null,
+  "geo": "Павлодар",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Алан»",
+    "bin": "110540009777"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-alma-ata-1",
+  "name": "Ломбард «Алма-Ата 1»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Алма-Ата 1»",
+    "bin": "130440011263"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-alma-gold-001",
+  "name": "Ломбард Alma Gold 001",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Alma Gold 001»",
+    "bin": "180840028539"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-almaz-2",
+  "name": "Ломбард Алмаз",
+  "branches": 4,
+  "cities": null,
+  "geo": "Актау",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Алмаз»",
+    "bin": "071140018162"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-almaz",
+  "name": "Ломбард Алмаз",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Алмаз»",
+    "bin": "150240013966"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-altyn-alem",
+  "name": "Ломбард Алтын Алем",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Алтын Алем»",
+    "bin": "080240022292"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-altyn-almaz",
+  "name": "Ломбард «Алтын Алмаз»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Алтын Алмаз»",
+    "bin": "141140005232"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-altyn-biznes",
+  "name": "Ломбард Алтын Бизнес",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Алтын Бизнес»",
+    "bin": "141140004610"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-altyn-kazyna",
+  "name": "Ломбард «Алтын Казына»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Алтын Казына»",
+    "bin": "140240018334"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-altyn-kredit-plyus",
+  "name": "Ломбард Алтын Кредит Плюс",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Алтын Кредит Плюс»",
+    "bin": "200640010367"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-altyn-taraz",
+  "name": "Ломбард «Алтын Тараз»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Алтын Тараз»",
+    "bin": "151240017886"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-altyn-tobe",
+  "name": "Ломбард «Алтын Төбе»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Алтын Төбе»",
+    "bin": "081140016482"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-alyans-ek",
+  "name": "ЛОМБАРД АЛЬЯНС ЭК",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ЛОМБАРД АЛЬЯНС ЭК»",
+    "bin": "160340022677"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-ametist",
+  "name": "Ломбард «Аметист»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Аметист»",
+    "bin": "100140007318"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-anel-2030",
+  "name": "Ломбард «Анель-2030»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Анель-2030»",
+    "bin": "000240004277"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-aport",
+  "name": "Ломбард «Апорт»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Апорт»",
+    "bin": "091040013713"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-aqsha-market",
+  "name": "Ломбард Ақша Маркет",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Ақша Маркет»",
+    "bin": "220440048569"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-arasan",
+  "name": "Ломбард-Арасан",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард-Арасан»",
+    "bin": "050640004311"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-arna-a",
+  "name": "Ломбард АРНА-А",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард АРНА-А»",
+    "bin": "151040015862"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-arna-gold",
+  "name": "Ломбард АРНА GOLD",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард АРНА GOLD»",
+    "bin": "190140035191"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-asar-s",
+  "name": "Ломбард «Асар-С»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Асар-С»",
+    "bin": "151040021887"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-asem",
+  "name": "Ломбард «Асем»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Асем»",
+    "bin": "191040011639"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-asia-gold",
+  "name": "Ломбард Asia gold",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Asia gold»",
+    "bin": "171040015192"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-ast-kz",
+  "name": "Ломбард-АСТ КЗ",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард-АСТ КЗ»",
+    "bin": "171140036307"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-ast",
+  "name": "Ломбард АСТ",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард АСТ»",
+    "bin": "090940017141"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-astanalyk-2011",
+  "name": "Ломбард «Астаналык-2011»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Астаналык-2011»",
+    "bin": "111140006750"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-asyl-kazyna-ltd",
+  "name": "Ломбард «Асыл-Казына Лтд»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Асыл-Казына Лтд»",
+    "bin": "140840005641"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-asyl-kredit",
+  "name": "Ломбард «Асыл кредит»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Асыл кредит»",
+    "bin": "091140002981"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-avans-plus",
+  "name": "Ломбард Аванс Plus",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Аванс Plus»",
+    "bin": "190340031710"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-aysultan",
+  "name": "Ломбард «Айсұлтан»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Айсұлтан»",
+    "bin": "140640013823"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-aziya-kz",
+  "name": "ЛОМБАРД АЗИЯ KZ",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ЛОМБАРД АЗИЯ KZ»",
+    "bin": "070940008862"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-aztec",
+  "name": "Ломбард «AZTEC»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «AZTEC»",
+    "bin": "100440013680"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-b",
+  "name": "Ломбард БЕЛЫЙ",
+  "branches": 26,
+  "cities": null,
+  "geo": "Алматы",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Белый TM»",
+    "bin": "180540033326"
+   },
+   {
+    "name": "ТОО «Ломбард Белый LLP»",
+    "bin": "190440031734"
+   },
+   {
+    "name": "ТОО «Ломбард Ломбардия.kz»",
+    "bin": "050540007093"
+   },
+   {
+    "name": "ТОО «Capital Synergy Ломбард»",
+    "bin": "171040010409"
+   },
+   {
+    "name": "ТОО «Ломбард White TM»",
+    "bin": "181040014999"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-baar",
+  "name": "Ломбард BAAR",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард BAAR»",
+    "bin": "191240017398"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-basik",
+  "name": "Ломбард «Basik»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Basik»",
+    "bin": "220240017928"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-baybol",
+  "name": "Ломбард «Байбол»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Байбол»",
+    "bin": "120540013162"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-bek",
+  "name": "Ломбард БЕК",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард БЕК»",
+    "bin": "090140011242"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-bereke-kz",
+  "name": "Ломбард Береке KZ",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Береке KZ»",
+    "bin": "191140006239"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-berekeli",
+  "name": "Ломбард Берекелі",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Берекелі»",
+    "bin": "110940007894"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-berkut-gold",
+  "name": "Ломбард «BERKUT GOLD»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «BERKUT GOLD»",
+    "bin": "170440034031"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-biik",
+  "name": "Ломбард «Биик»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Биик»",
+    "bin": "980840001217"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-bn",
+  "name": "Ломбард БН",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард БН»",
+    "bin": "200540011410"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-bolashak",
+  "name": "Ломбард Болашак",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Болашак»",
+    "bin": "140240026692"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-cvoy",
+  "name": "Ломбард CVOY",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард CVOY»",
+    "bin": "200540016615"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-d-kapital",
+  "name": "Ломбард Д-КАПИТАЛ",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Д-КАПИТАЛ»",
+    "bin": "140740026551"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-daniyar",
+  "name": "Ломбард «Данияр»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Данияр»",
+    "bin": "101140000046"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-darkhan",
+  "name": "Ломбард Дархан",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Дархан»",
+    "bin": "150740014391"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-diamond",
+  "name": "Ломбард-Диамонд",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард-Диамонд»",
+    "bin": "100340012708"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-dinar-akbayan",
+  "name": "Ломбард Динар-Ақбаян",
+  "branches": 11,
+  "cities": null,
+  "geo": "Тараз",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Динар-Ақбаян»",
+    "bin": "080740019842"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-dk-altyn-taga",
+  "name": "Ломбард «ДК Алтын Таға»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «ДК Алтын Таға»",
+    "bin": "130140003291"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-doverie",
+  "name": "Ломбард «Доверие»",
+  "branches": 8,
+  "cities": null,
+  "geo": "Астана",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Доверие»",
+    "bin": "171140033987"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-ekspres",
+  "name": "Ломбард Экспресъ",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Экспресъ»",
+    "bin": "071140019217"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-ekspress-kredit-servis",
+  "name": "Ломбард Экспресс Кредит Сервис",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Экспресс Кредит Сервис»",
+    "bin": "191240025219"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-ekspress",
+  "name": "ЛОМБАРД ЭКСПРЕССЪ",
+  "branches": 5,
+  "cities": null,
+  "geo": "Костанай",
+  "entities": [
+   {
+    "name": "ТОО «ЛОМБАРД ЭКСПРЕССЪ»",
+    "bin": "070340005437"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-el-dana",
+  "name": "Ломбард Ел-Дана",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Ел-Дана»",
+    "bin": "161040024318"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-elit-kredit",
+  "name": "Ломбард «Элит-Кредит»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Элит-Кредит»",
+    "bin": "100240002886"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-erzhan-shapagat",
+  "name": "Ломбард «Ержан-Шапағат»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Ержан-Шапағат»",
+    "bin": "120340002853"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-evraziya",
+  "name": "Ломбард «Евразия»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Евразия»",
+    "bin": "091040004526"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-evro-taraz",
+  "name": "Ломбард «Евро-Тараз»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Евро-Тараз»",
+    "bin": "060640011354"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-finans-plyus",
+  "name": "Ломбард Финанс плюс",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Финанс плюс»",
+    "bin": "150940019429"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-first-kz",
+  "name": "Ломбард First.kz",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард First.kz»",
+    "bin": "221240007438"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-flagman-credit",
+  "name": "ЛОМБАРД FLAGMAN - CREDIT",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ЛОМБАРД FLAGMAN - CREDIT»",
+    "bin": "090340012882"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-fortuna-gold",
+  "name": "Ломбард Фортуна Голд",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Фортуна Голд»",
+    "bin": "200540003003"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-gauhar",
+  "name": "Негосударственный ломбард Гаухар",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Негосударственный ломбард Гаухар»",
+    "bin": "941040001630"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-gfm",
+  "name": "Ломбард «GoldFinMarket»",
+  "branches": 39,
+  "cities": 13,
+  "geo": "Алматы, Арысь, Астана, Казыгурт, Ленгер и другие",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «GoldFinMarket»",
+    "bin": "230140025888"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-gold-expert",
+  "name": "Ломбард GOLD EXPERT",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард GOLD EXPERT»",
+    "bin": "130640020894"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-gold-grantum",
+  "name": "Ломбард Gold Grantum",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Gold Grantum»",
+    "bin": "180240012233"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-gold-prime",
+  "name": "Ломбард Gold Prime",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Gold Prime»",
+    "bin": "251140016588"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-gold-time",
+  "name": "Ломбард Gold Time",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Gold Time»",
+    "bin": "101240002145"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-gold-v",
+  "name": "Ломбард Gold V",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Gold V»",
+    "bin": "090640018159"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-gold888",
+  "name": "Ломбард «GOLD888»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «GOLD888»",
+    "bin": "101040004194"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-golden-lion",
+  "name": "Ломбард Golden Lion",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Golden Lion»",
+    "bin": "190140007710"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-goldenlux",
+  "name": "Ломбард GoldenLUX",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард GoldenLUX»",
+    "bin": "161240025761"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-invest-plyus",
+  "name": "Ломбард Инвест Плюс",
+  "branches": 2,
+  "cities": null,
+  "geo": "Балхаш",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Инвест Плюс»",
+    "bin": "061240003163"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-kapital",
+  "name": "Ломбард Капиталъ",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Капиталъ»",
+    "bin": "081140014476"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-kazkredit",
+  "name": "Ломбард «КазКредит»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «КазКредит»",
+    "bin": "191140004987"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-kazyna-gold",
+  "name": "Ломбард Казына GOLD",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Казына GOLD»",
+    "bin": "130540012919"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-khalyq-2009",
+  "name": "ЛОМБАРД ХАЛЫҚ 2009",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ЛОМБАРД ХАЛЫҚ 2009»",
+    "bin": "090840010527"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-koldariya",
+  "name": "Ломбард «Көлдария»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Көлдария»",
+    "bin": "120140012487"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-komekkom",
+  "name": "Ломбард Көмекком",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Көмекком»",
+    "bin": "061240010872"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-kopeyka",
+  "name": "Ломбард «Копейка»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Копейка»",
+    "bin": "120540007574"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-kovcheg",
+  "name": "Ломбард «Ковчег»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Ковчег»",
+    "bin": "100240006767"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-kreditnyy-dvor",
+  "name": "Ломбард «Кредитный двор»",
+  "branches": 3,
+  "cities": null,
+  "geo": "Тараз",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Кредитный двор»",
+    "bin": "080340002308"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-kulyan-kredit",
+  "name": "Ломбард Кулян кредит",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Кулян кредит»",
+    "bin": "110340012680"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-lider-kz",
+  "name": "Ломбард ЛИДЕР KZ",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард ЛИДЕР KZ»",
+    "bin": "191240029440"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-lombard",
+  "name": "Ломбард «Спарта»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «∑παρτα Ломбард»",
+    "bin": "181240026947"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-lux-888",
+  "name": "Ломбард LUX 888",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард LUX 888»",
+    "bin": "170740016410"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-madina-i-k",
+  "name": "Ломбард «Мадина и К»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Мадина и К»",
+    "bin": "130640018753"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-magnit",
+  "name": "Ломбард «Магнит»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Магнит»",
+    "bin": "101140000056"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-magnitt",
+  "name": "Ломбард МАГНИТТ",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард МАГНИТТ»",
+    "bin": "121240011257"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-maks-m",
+  "name": "Ломбард Макс-М",
+  "branches": 8,
+  "cities": 3,
+  "geo": "Жезказган, Караганда, Сатпаев",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Макс-М»",
+    "bin": "030440009706"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-master-yuvelir",
+  "name": "Ломбард «МАСТЕР-ЮВЕЛИР»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «МАСТЕР-ЮВЕЛИР»",
+    "bin": "180840012790"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-mayak-kz",
+  "name": "Ломбард Маяк KZ",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Маяк KZ»",
+    "bin": "120640005412"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-medeu",
+  "name": "Ломбард Медеу",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Медеу»",
+    "bin": "110540007374"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-mega-altyn",
+  "name": "ЛОМБАРД МЕГА-АЛТЫН",
+  "branches": 3,
+  "cities": null,
+  "geo": "Актобе",
+  "entities": [
+   {
+    "name": "ТОО «ЛОМБАРД МЕГА-АЛТЫН»",
+    "bin": "070740011934"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-megapolis",
+  "name": "Ломбард Мегаполис",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Мегаполис»",
+    "bin": "170840031874"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-merkuriy",
+  "name": "Ломбард «Меркурий»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Меркурий»",
+    "bin": "120240017045"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-mikrofinans",
+  "name": "MF ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард микрофинанс»",
+    "bin": "160140000391"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-million-m",
+  "name": "Ломбард Миллион-М",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Миллион-М»",
+    "bin": "140240022848"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-minicredit",
+  "name": "Ломбард Minicredit",
+  "branches": 3,
+  "cities": null,
+  "geo": "Алматы",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Minicredit»",
+    "bin": "150140009571"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-mm-alikhan",
+  "name": "Ломбард ММ-Алихан",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард ММ-Алихан»",
+    "bin": "190140032474"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-molodoi-rubin",
+  "name": "Ломбард Молодой рубин",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Молодой рубин»",
+    "bin": "171240027074"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-moy-lombard",
+  "name": "Ломбард «Мой ЛОМБАРД»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Мой ЛОМБАРД»",
+    "bin": "130240031657"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-muz-tau-1",
+  "name": "Ломбард «Мұз Тау-1»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Мұз Тау-1»",
+    "bin": "201240004063"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-natali",
+  "name": "Ломбард «Натали»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Натали»",
+    "bin": "140740022271"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-neo",
+  "name": "Ломбард neo",
+  "branches": 4,
+  "cities": null,
+  "geo": "Павлодар",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард neo»",
+    "bin": "241040033136"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-nesibe",
+  "name": "Ломбард «Несібе»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Несібе»",
+    "bin": "090340011725"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-nesibeli",
+  "name": "Ломбард «Несібелі»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Несібелі»",
+    "bin": "180140036108"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-nur-bek",
+  "name": "Ломбард Нұр-Бек",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Нұр-Бек»",
+    "bin": "190940015582"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-nursezim-gold",
+  "name": "«Ломбард» Nursezim gold",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО ««Ломбард» Nursezim gold»",
+    "bin": "230540012296"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-ok-finance",
+  "name": "Ломбард «OK Finance»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «OK Finance»",
+    "bin": "190640006999"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-olimpik",
+  "name": "Ломбард Олимпик",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО « Ломбард Олимпик»",
+    "bin": "140540002488"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-ostrov-sokrovishch",
+  "name": "Ломбард «Остров сокровищ»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Остров сокровищ»",
+    "bin": "090640001560"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-partner",
+  "name": "Ломбард «Партнер»",
+  "branches": 21,
+  "cities": 8,
+  "geo": "Аксукент, Арысь, Жетысай, Кентау, Ленгер и другие",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Партнер Казахстан»",
+    "bin": "140340023770"
+   },
+   {
+    "name": "ТОО «Ломбард - Партнер»",
+    "bin": "030740005764"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-plyus",
+  "name": "Ломбард ПЛЮС",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард ПЛЮС»",
+    "bin": "070940021483"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-pyatachok",
+  "name": "Ломбард Пятачок",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Пятачок»",
+    "bin": "090640016291"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-qarzhy",
+  "name": "Ломбард-Қаржы",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард-Қаржы»",
+    "bin": "040640001591"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-qazyna-plyus",
+  "name": "Ломбард «Қазына плюс»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Қазына плюс»",
+    "bin": "100240013475"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-qor",
+  "name": "Ломбард «Қор»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Қор»",
+    "bin": "150140007812"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-r-lyuks",
+  "name": "Ломбард «Р-ЛЮКС»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Р-ЛЮКС»",
+    "bin": "090740005329"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-rante-kz",
+  "name": "Ломбард Рантье KZ",
+  "branches": 3,
+  "cities": null,
+  "geo": "Темиртау",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Рантье KZ»",
+    "bin": "120640005224"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-rv",
+  "name": "Ломбард РВ",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард РВ»",
+    "bin": "101240011858"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-samuryq-kz",
+  "name": "Ломбард Самұрық kz",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Самұрық kz»",
+    "bin": "121040014482"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-sapa",
+  "name": "Ломбард «Сапа»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Сапа»",
+    "bin": "081040015738"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-shans",
+  "name": "Ломбард Шанс",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Шанс»",
+    "bin": "200140006291"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-shynar-ai",
+  "name": "Ломбард Шынар-Ай",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Шынар-Ай»",
+    "bin": "200740008587"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-sindbad1",
+  "name": "ломбард Синдбад1",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ломбард Синдбад1»",
+    "bin": "170640007150"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-ss",
+  "name": "Ломбард-SS",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард-SS»",
+    "bin": "200940020523"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-standart",
+  "name": "Ломбард «Стандарт»",
+  "branches": 5,
+  "cities": null,
+  "geo": "Петропавловск",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Стандарт»",
+    "bin": "090240006061"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-status-ko",
+  "name": "ЛОМБАРД STATUS & Ko",
+  "branches": 5,
+  "cities": 2,
+  "geo": "Караганда, Темиртау",
+  "entities": [
+   {
+    "name": "ТОО «ЛОМБАРД STATUS & Ko»",
+    "bin": "171140028930"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-sultan",
+  "name": "Ломбард «Sultan»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Sultan»",
+    "bin": "210640002764"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-tassi",
+  "name": "ЛОМБАРД TASSI",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ЛОМБАРД TASSI»",
+    "bin": "190740009471"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-tiyn-s",
+  "name": "Ломбард «TIYN-S»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «TIYN-S»",
+    "bin": "171240008187"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-tsentralnyy-2",
+  "name": "Центральный Ломбард",
+  "branches": 12,
+  "cities": null,
+  "geo": "Петропавловск",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Центральный 2»",
+    "bin": "150640020431"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-turkestan",
+  "name": "Ломбард Туркестан",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Туркестан»",
+    "bin": "140340006552"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-turmalin",
+  "name": "Ломбард Турмалин",
+  "branches": 4,
+  "cities": null,
+  "geo": "Алматы",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Турмалин»",
+    "bin": "110840020144"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-uly-shyn",
+  "name": "Ломбард «УЛЫ ШЫН»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «УЛЫ ШЫН»",
+    "bin": "080740015205"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-uspekh-plyus",
+  "name": "Ломбард «Успех Плюс»",
+  "branches": 2,
+  "cities": null,
+  "geo": "Уральск",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Успех Плюс»",
+    "bin": "170840023020"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-vega",
+  "name": "Ломбард Вега",
+  "branches": 2,
+  "cities": null,
+  "geo": "Талдыкорган",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Вега»",
+    "bin": "120540019924"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-ver",
+  "name": "Ломбард ВЕР",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард ВЕР»",
+    "bin": "160440008030"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-vlaser",
+  "name": "Ломбард «Власер»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Власер»",
+    "bin": "100840010501"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-vostok-kazyna",
+  "name": "Восток Ломбард",
+  "branches": 3,
+  "cities": null,
+  "geo": "Семей",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Восток-Казына»",
+    "bin": "160140021443"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-west",
+  "name": "Ломбард «West»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «West»",
+    "bin": "091140003561"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-yuvelir-plyus",
+  "name": "Ломбард Ювелир плюс",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Ювелир плюс»",
+    "bin": "080740013176"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-yuvelir",
+  "name": "ЛОМБАРД ЮВЕЛИРЪ",
+  "branches": 2,
+  "cities": null,
+  "geo": "Темиртау",
+  "entities": [
+   {
+    "name": "ТОО «ЛОМБАРД ЮВЕЛИРЪ»",
+    "bin": "151140020317"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-zanachka",
+  "name": "Ломбард «Заначка»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Заначка»",
+    "bin": "210440030950"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-zanal",
+  "name": "Ломбард Занал",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Занал»",
+    "bin": "180840019517"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-zhada",
+  "name": "Ломбард «ЖаДа»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «ЖаДа»",
+    "bin": "110140010845"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-zhaiyk",
+  "name": "Ломбард ЖАЙЫҚ",
+  "branches": 5,
+  "cities": null,
+  "geo": "Атырау",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард ЖАЙЫҚ»",
+    "bin": "250240024222"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-zhanar",
+  "name": "Ломбард Жанар",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Жанар»",
+    "bin": "090240014568"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-zhasa",
+  "name": "Lombard «ZhASA»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Lombard «ZhASA»",
+    "bin": "180840023885"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-zhuldyz-1",
+  "name": "Ломбард Жулдыз-1",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Жулдыз-1»",
+    "bin": "170240032840"
+   }
+  ]
+ },
+ {
+  "slug": "lombard-zolotaya-runa",
+  "name": "Ломбард Золотая Руна",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Золотая Руна»",
+    "bin": "180240011969"
+   }
+  ]
+ },
+ {
+  "slug": "lombardaltyn",
+  "name": "Алтын ломбард",
+  "branches": 12,
+  "cities": null,
+  "geo": "Астана",
+  "entities": [
+   {
+    "name": "ТОО «Алтын ломбард Астана 1»",
+    "bin": "191040006414"
+   }
+  ]
+ },
+ {
+  "slug": "lombardaltynoral",
+  "name": "ЛомбардАлтынОрал",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ЛомбардАлтынОрал»",
+    "bin": "070940006320"
+   }
+  ]
+ },
+ {
+  "slug": "lombardbereke",
+  "name": "Береке Ломбард",
+  "branches": 2,
+  "cities": null,
+  "geo": "Астана",
+  "entities": [
+   {
+    "name": "ТОО «Береке-Ломбард KZ»",
+    "bin": "160840017054"
+   }
+  ]
+ },
+ {
+  "slug": "lombardnur001",
+  "name": "Ломбард Нұр-001",
+  "branches": 3,
+  "cities": 3,
+  "geo": "Жетысай, Сарыагаш, Туркестан",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Нұр - 001»",
+    "bin": "170440033955"
+   }
+  ]
+ },
+ {
+  "slug": "lombardparitet",
+  "name": "Паритет Ломбард",
+  "branches": 12,
+  "cities": 2,
+  "geo": "Павлодар, Экибастуз",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Паритет ПВ»",
+    "bin": "140440018163"
+   }
+  ]
+ },
+ {
+  "slug": "lombardzenit",
+  "name": "Ломбард «Зенит»",
+  "branches": 16,
+  "cities": 2,
+  "geo": "Караганда, Темиртау",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Зенит LTD»",
+    "bin": "060340006387"
+   }
+  ]
+ },
+ {
+  "slug": "lpegas",
+  "name": "Ломбард «Пегас»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «РеГАС»",
+    "bin": "220340022274"
+   },
+   {
+    "name": "ТОО «Ломбард «ПЕГАС и К»",
+    "bin": "090140015403"
+   }
+  ]
+ },
+ {
+  "slug": "m-avtolombard-2",
+  "name": "М-Автоломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «М-Автоломбард»",
+    "bin": "190140001296"
+   }
+  ]
+ },
+ {
+  "slug": "m-lombard",
+  "name": "М-Ломбард",
+  "branches": 4,
+  "cities": 3,
+  "geo": "Алматы, Курчатов, Семей",
+  "entities": [
+   {
+    "name": "ТОО «М-Ломбард»",
+    "bin": "010540000712"
+   },
+   {
+    "name": "ТОО «МК-Ломбард»",
+    "bin": "090540011693"
+   }
+  ]
+ },
+ {
+  "slug": "maxsimumlombard",
+  "name": "Ломбард «Maxsimum»",
+  "branches": 9,
+  "cities": 2,
+  "geo": "Астана, Караганда",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Maxsimum»",
+    "bin": "110840013588"
+   }
+  ]
+ },
+ {
+  "slug": "meyer-lombard",
+  "name": "Мейер-Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Мейер-Ломбард»",
+    "bin": "031140002522"
+   }
+  ]
+ },
+ {
+  "slug": "mik-lombard",
+  "name": "МИК Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «МИК Ломбард»",
+    "bin": "151240016441"
+   }
+  ]
+ },
+ {
+  "slug": "millenium-lombard",
+  "name": "Миллениум Ломбард",
+  "branches": 2,
+  "cities": null,
+  "geo": "Павлодар",
+  "entities": [
+   {
+    "name": "ТОО «Миллениум Ломбард»",
+    "bin": "190140003550"
+   }
+  ]
+ },
+ {
+  "slug": "miras-lombard-1",
+  "name": "Мирас ЛОМБАРД-1",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Мирас ЛОМБАРД-1»",
+    "bin": "190640029373"
+   }
+  ]
+ },
+ {
+  "slug": "mk-ekstra-lombard",
+  "name": "МК Экстра Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «МК Экстра Ломбард»",
+    "bin": "131140013251"
+   }
+  ]
+ },
+ {
+  "slug": "mk-premium-lombard",
+  "name": "MK PREMIUM LOMBARD",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «MK PREMIUM LOMBARD»",
+    "bin": "230540035196"
+   }
+  ]
+ },
+ {
+  "slug": "mk-tenge-lombard",
+  "name": "МК-Тенге Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «МК-Тенге Ломбард»",
+    "bin": "190940020330"
+   }
+  ]
+ },
+ {
+  "slug": "mk-zoloto-lombard",
+  "name": "Золото Ломбард",
+  "branches": 144,
+  "cities": 38,
+  "geo": "Актау, Актобе, Алматы, Астана, Атырау и другие",
+  "entities": [
+   {
+    "name": "ТОО «МК-Золото Ломбард»",
+    "bin": "180640013454"
+   }
+  ]
+ },
+ {
+  "slug": "moi-lombard",
+  "name": "Мой Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Мой Ломбард»",
+    "bin": "140840018871"
+   }
+  ]
+ },
+ {
+  "slug": "multi-lombard",
+  "name": "Мульти ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Мульти ломбард»",
+    "bin": "190840012237"
+   }
+  ]
+ },
+ {
+  "slug": "negosudarstvennyy-lombard-diskont",
+  "name": "Негосударственный ломбард «Дисконт»",
+  "branches": 5,
+  "cities": null,
+  "geo": "Костанай",
+  "entities": [
+   {
+    "name": "ТОО «Негосударственный ломбард «Дисконт»",
+    "bin": "950340001917"
+   }
+  ]
+ },
+ {
+  "slug": "nur-komek-lombard",
+  "name": "НҰР-КӨМЕК Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «НҰР-КӨМЕК Ломбард»",
+    "bin": "130440000585"
+   }
+  ]
+ },
+ {
+  "slug": "olzha-1-lombard",
+  "name": "Олжа-1 ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Олжа-1 ломбард»",
+    "bin": "181040019058"
+   }
+  ]
+ },
+ {
+  "slug": "onay-lombard",
+  "name": "Онай Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Онай Ломбард»",
+    "bin": "170240032454"
+   }
+  ]
+ },
+ {
+  "slug": "orlan",
+  "name": "Ломбард «Орлан»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Орлан»",
+    "bin": "100440006836"
+   },
+   {
+    "name": "ТОО «Ломбард «Orlan-PVL»",
+    "bin": "140840013018"
+   }
+  ]
+ },
+ {
+  "slug": "oser-lombard",
+  "name": "ОСЕР Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ОСЕР Ломбард»",
+    "bin": "121040002518"
+   }
+  ]
+ },
+ {
+  "slug": "otbasy-lombard",
+  "name": "Отбасы Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Отбасы Ломбард»",
+    "bin": "230540007071"
+   }
+  ]
+ },
+ {
+  "slug": "pervyy-avtomobilnyy-lombard",
+  "name": "Первый Автомобильный Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Первый Автомобильный Ломбард»",
+    "bin": "170640027948"
+   }
+  ]
+ },
+ {
+  "slug": "platinum-lombard",
+  "name": "PLATINUM Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «PLATINUM Ломбард»",
+    "bin": "190440035300"
+   }
+  ]
+ },
+ {
+  "slug": "pro-lombard",
+  "name": "Pro-Lombard",
+  "branches": 5,
+  "cities": null,
+  "geo": "Астана",
+  "entities": [
+   {
+    "name": "ТОО «Pro-Lombard»",
+    "bin": "180240010396"
+   }
+  ]
+ },
+ {
+  "slug": "pro100-lombard",
+  "name": "Pro100-ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Pro100-ломбард»",
+    "bin": "190540008852"
+   }
+  ]
+ },
+ {
+  "slug": "prosto-lombard-plyus",
+  "name": "Просто Ломбард Плюс",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Просто Ломбард Плюс»",
+    "bin": "170940008685"
+   }
+  ]
+ },
+ {
+  "slug": "qarjylombard",
+  "name": "Каржы Ломбард",
+  "branches": 6,
+  "cities": 3,
+  "geo": "Сарыагаш, Шымкент, с",
+  "entities": [
+   {
+    "name": "ТОО «Каржы Ломбард»",
+    "bin": "110540016353"
+   }
+  ]
+ },
+ {
+  "slug": "qaz-finance-lombard",
+  "name": "Qaz Finance Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Qaz Finance Ломбард»",
+    "bin": "161240015564"
+   }
+  ]
+ },
+ {
+  "slug": "r-tekhno-lombard-247",
+  "name": "Р-Техно Ломбард 247",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Р-Техно Ломбард 247»",
+    "bin": "210340012314"
+   }
+  ]
+ },
+ {
+  "slug": "rich-avtolombard",
+  "name": "RICH Автоломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «RICH Автоломбард»",
+    "bin": "210440011469"
+   }
+  ]
+ },
+ {
+  "slug": "rim-lombard",
+  "name": "Рим Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Рим Ломбард»",
+    "bin": "220140005693"
+   }
+  ]
+ },
+ {
+  "slug": "ru-lombard",
+  "name": "Ру-Ломбард",
+  "branches": 4,
+  "cities": null,
+  "geo": "Алматы",
+  "entities": [
+   {
+    "name": "ТОО «Ру-Ломбард»",
+    "bin": "100940004997"
+   }
+  ]
+ },
+ {
+  "slug": "rvnl",
+  "name": "Ломбард «VeRu»",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ломбард VeRu»",
+    "bin": "240140026947"
+   }
+  ]
+ },
+ {
+  "slug": "saf1-lombard",
+  "name": "Saf1 Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Saf1 Ломбард»",
+    "bin": "170840036333"
+   }
+  ]
+ },
+ {
+  "slug": "salem-lombard",
+  "name": "Сәлем Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Сәлем Ломбард»",
+    "bin": "100840010086"
+   }
+  ]
+ },
+ {
+  "slug": "sandyk",
+  "name": "Ломбард Сандык",
+  "branches": 99,
+  "cities": 37,
+  "geo": "Абай, Айтеке-би, Аксу, Актау, Актобе и другие",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард Сандык»",
+    "bin": "230440017540"
+   }
+  ]
+ },
+ {
+  "slug": "sary-lombard",
+  "name": "Сары Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Сары Ломбард»",
+    "bin": "150340018875"
+   }
+  ]
+ },
+ {
+  "slug": "sat-auto-lombard",
+  "name": "SAT AUTO Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «SAT AUTO Ломбард»",
+    "bin": "140340004714"
+   }
+  ]
+ },
+ {
+  "slug": "seiflombard",
+  "name": "Сейф-Ломбард",
+  "branches": 90,
+  "cities": 17,
+  "geo": "Аксай, Актобе, Алга, Алматы, Астана и другие",
+  "entities": [
+   {
+    "name": "ТОО «Сейф Ломбард»",
+    "bin": "090440011332"
+   }
+  ]
+ },
+ {
+  "slug": "senim-lombard-pro",
+  "name": "Сенім ломбард про",
+  "branches": 2,
+  "cities": null,
+  "geo": "Экибастуз",
+  "entities": [
+   {
+    "name": "ТОО «Сенім ломбард про»",
+    "bin": "190440035707"
+   }
+  ]
+ },
+ {
+  "slug": "sert-finance",
+  "name": "Sert Financ Group",
+  "branches": 15,
+  "cities": null,
+  "geo": "Шымкент",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Серт А»",
+    "bin": "160740000908"
+   },
+   {
+    "name": "ТОО «Ломбард «Серт KZ»",
+    "bin": "100840015770"
+   }
+  ]
+ },
+ {
+  "slug": "sf-lombard",
+  "name": "SF Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «SF Ломбард»",
+    "bin": "221140037159"
+   }
+  ]
+ },
+ {
+  "slug": "shik585lombard",
+  "name": "Шик585Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Шик585Ломбард»",
+    "bin": "180840010714"
+   }
+  ]
+ },
+ {
+  "slug": "skay-lombard",
+  "name": "Скай-ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Скай-ломбард»",
+    "bin": "170840019181"
+   }
+  ]
+ },
+ {
+  "slug": "smart-lombard",
+  "name": "Smart Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Smart Ломбард»",
+    "bin": "160640002693"
+   }
+  ]
+ },
+ {
+  "slug": "status-lombard",
+  "name": "Status Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Status Ломбард»",
+    "bin": "110540002462"
+   }
+  ]
+ },
+ {
+  "slug": "superlombard",
+  "name": "Фирма S Ломбард Кокше",
+  "branches": 5,
+  "cities": null,
+  "geo": "Кокшетау",
+  "entities": [
+   {
+    "name": "ТОО «Фирма S Ломбард Кокше»",
+    "bin": "100740011368"
+   }
+  ]
+ },
+ {
+  "slug": "teh-lombard-bs",
+  "name": "ТЕХ-Ломбард БС",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ТЕХ-Ломбард БС»",
+    "bin": "080740001255"
+   }
+  ]
+ },
+ {
+  "slug": "teh-lombard",
+  "name": "Тех.ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Тех.ломбард»",
+    "bin": "180240009243"
+   }
+  ]
+ },
+ {
+  "slug": "tehno-altyn-lombard",
+  "name": "TEHNO ALTYN Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «TEHNO ALTYN Ломбард»",
+    "bin": "170740029908"
+   }
+  ]
+ },
+ {
+  "slug": "tekh-avto-lombard",
+  "name": "Тех авто Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Тех авто Ломбард»",
+    "bin": "191040011004"
+   }
+  ]
+ },
+ {
+  "slug": "tekhno-lombard",
+  "name": "Техно-ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Техно-ломбард»",
+    "bin": "140740005757"
+   }
+  ]
+ },
+ {
+  "slug": "temirlombardkz",
+  "name": "ТемирломбардKZ",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ТемирломбардKZ»",
+    "bin": "200840015424"
+   }
+  ]
+ },
+ {
+  "slug": "tenge-lombard-kz",
+  "name": "Тенге Ломбард.KZ",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Тенге Ломбард.KZ»",
+    "bin": "180840006240"
+   }
+  ]
+ },
+ {
+  "slug": "tez-avtolombard",
+  "name": "TEZ автоломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «TEZ автоломбард»",
+    "bin": "190240016496"
+   }
+  ]
+ },
+ {
+  "slug": "tez-lombard",
+  "name": "TEZ-Ломбард",
+  "branches": 3,
+  "cities": null,
+  "geo": "Алматы",
+  "entities": [
+   {
+    "name": "ТОО «TEZ-Ломбард»",
+    "bin": "251140006154"
+   }
+  ]
+ },
+ {
+  "slug": "trastful-m-lombard",
+  "name": "Trastful-M Lombard",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Trastful-M Lombard»",
+    "bin": "171040032945"
+   }
+  ]
+ },
+ {
+  "slug": "trillioner",
+  "name": "Trillioner Lombard",
+  "branches": 3,
+  "cities": null,
+  "geo": "Алматы",
+  "entities": [
+   {
+    "name": "ТОО «Триллионер Ломбард»",
+    "bin": "161140014007"
+   },
+   {
+    "name": "ТОО «Trillioner Lombard Company»",
+    "bin": "161040005351"
+   }
+  ]
+ },
+ {
+  "slug": "triumf-lombard",
+  "name": "Триумф Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Триумф Ломбард»",
+    "bin": "091040005603"
+   }
+  ]
+ },
+ {
+  "slug": "tsentralnyy-lombard",
+  "name": "Центральный Ломбард",
+  "branches": 18,
+  "cities": null,
+  "geo": "Петропавловск",
+  "entities": [
+   {
+    "name": "ТОО «Центральный Ломбард»",
+    "bin": "020940001093"
+   }
+  ]
+ },
+ {
+  "slug": "uk-lombard",
+  "name": "YK Ломбард",
+  "branches": 23,
+  "cities": 5,
+  "geo": "Аксу, Алматы, Каскелен, Павлодар, Усть-Каменогорск",
+  "entities": [
+   {
+    "name": "ТОО «YK Ломбард»",
+    "bin": "140240014193"
+   }
+  ]
+ },
+ {
+  "slug": "va-lombard-lombard",
+  "name": "VA LOMBARD",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «VA LOMBARD» ЛОМБАРД»",
+    "bin": "170440007094"
+   }
+  ]
+ },
+ {
+  "slug": "vash-lombard-erkyn",
+  "name": "Ваш Ломбард-Еркын",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Ваш Ломбард-Еркын»",
+    "bin": "120540020333"
+   }
+  ]
+ },
+ {
+  "slug": "vsl",
+  "name": "Ваш столичный ломбард",
+  "branches": 11,
+  "cities": null,
+  "geo": "Астана",
+  "entities": [
+   {
+    "name": "ТОО «Ваш столичный ломбард»",
+    "bin": "100940008741"
+   },
+   {
+    "name": "ТОО «Ломбард Столичный КЗ»",
+    "bin": "080840007822"
+   }
+  ]
+ },
+ {
+  "slug": "xanlombard",
+  "name": "Хан Ломбард",
+  "branches": 5,
+  "cities": null,
+  "geo": "Алматы",
+  "entities": [
+   {
+    "name": "ТОО «Хан ломбард»",
+    "bin": "100540005603"
+   }
+  ]
+ },
+ {
+  "slug": "yrys-gold-lombard",
+  "name": "ЫРЫС GOLD LOMBARD",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ЫРЫС GOLD LOMBARD»",
+    "bin": "191240021900"
+   }
+  ]
+ },
+ {
+  "slug": "zamankeldi-lombard",
+  "name": "«ЗАМАНКЕЛДІ» Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «ЗАМАНКЕЛДІ» Ломбард»",
+    "bin": "150440005738"
+   }
+  ]
+ },
+ {
+  "slug": "zangar",
+  "name": "Ломбард «Зангар»",
+  "branches": 5,
+  "cities": 4,
+  "geo": "Бескол, Кокшетау, Красный Яр, Петропавловск",
+  "entities": [
+   {
+    "name": "ТОО «Ломбард «Зангар»",
+    "bin": "030740000713"
+   }
+  ]
+ },
+ {
+  "slug": "zerger-lombard",
+  "name": "Зергер ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Зергер ломбард»",
+    "bin": "180140000593"
+   }
+  ]
+ },
+ {
+  "slug": "zhan-lombard",
+  "name": "Жан ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Жан ломбард»",
+    "bin": "170340017622"
+   }
+  ]
+ },
+ {
+  "slug": "zhantas-lombard",
+  "name": "ЖанТаС ломбард",
+  "branches": 7,
+  "cities": null,
+  "geo": "Астана",
+  "entities": [
+   {
+    "name": "ТОО «ЖанТаС ломбард»",
+    "bin": "131040020657"
+   }
+  ]
+ },
+ {
+  "slug": "zhez-lombard",
+  "name": "Zhez ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Zhez ломбард»",
+    "bin": "111040001250"
+   }
+  ]
+ },
+ {
+  "slug": "zolotoi-lombard",
+  "name": "Золотой Ломбард",
+  "branches": null,
+  "cities": null,
+  "geo": null,
+  "entities": [
+   {
+    "name": "ТОО «Золотой Ломбард»",
+    "bin": "070540028298"
+   }
+  ]
+ }
+]
