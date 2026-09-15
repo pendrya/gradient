@@ -174,6 +174,74 @@ At 4,000 h its shortcuts become the dominant cost.
 Storage alone is a planning item on Paperspace `/notebooks` persistent volumes. **Store FLAC, not WAV** —
 it halves footprint and IO at no accuracy cost.
 
+### Audio spec: format, clip length, sample rate
+
+All verified against `preprocessor_config.json`, `processing_qwen3_asr.py` and the feature extractor
+itself, because the README's one-line answer ("path to a WAV file") is misleading in three ways.
+
+| | Requirement | Why |
+|---|---|---|
+| **Sample rate** | **16 kHz, mandatory** | Hard-coded in three places: `load_audio(path, sr=16000)`, `--sr` default, collator `sampling_rate=16000`. `librosa` silently resamples anything else, so a wrong rate costs throughput, not an error |
+| **Channels** | **Mono** | `librosa.load(..., mono=True)` downmixes automatically |
+| **Container** | WAV **or FLAC** (also OGG; MP3 via fallback) | README says WAV, but `librosa` → `soundfile` reads FLAC natively. **Use FLAC**: lossless, ~half the bytes, ~230–280 GB instead of ~461 GB for 4,000 h |
+| **Bit depth** | 16-bit PCM | Decoded to float32 regardless |
+| **Clip length (training)** | **5–30 s recommended**; no hard limit | Nothing truncates — cost is what grows |
+| **Clip length (inference)** | Fed whole up to **1200 s**; 180 s with timestamps | `MAX_ASR_INPUT_SECONDS` / `MAX_FORCE_ALIGN_INPUT_SECONDS` |
+
+**It does not behave like Whisper, despite using `WhisperFeatureExtractor`.** The config carries
+`chunk_length: 30`, `n_samples: 480000`, `nb_max_frames: 3000` — inherited Whisper defaults that this
+code path never uses. `processing_qwen3_asr.py` forces `padding=True, truncation=False`, which means
+**pad to the longest clip in the batch, and never truncate**. Measured directly:
+
+```
+durations [3.0]        -> features (1, 128,  300)   # not 3000 - no fixed 30s window
+durations [3.0, 45.0]  -> features (2, 128, 4500)   # 45s passes through intact
+durations [90.0]       -> features (1, 128, 9000)   # no truncation at 30s
+```
+
+So there is no 30 s ceiling, and no 30 s floor-cost either. Consequences both ways: you may train on
+clips longer than 30 s, and short clips are genuinely cheap — *provided you batch them together*.
+
+**Audio token accounting: exactly 13 tokens per second** (from `_get_feat_extract_output_lengths`;
+the report's "12.5 Hz" is the nominal 8× downsampling of 100 fps). A 30 s clip contributes 390 audio
+tokens before any text. Budget a 30 s Kazakh utterance at roughly 390 audio + ~365 text tokens
+(§4's 4.87 tokens/word at ~2.5 words/s) plus the bias prompt.
+
+### Length grouping is worth ~2.8×, and needs two patches
+
+Because batches pad to their longest member, a conversational duration spread wastes most of the
+encoder. Simulating 200 k utterances (lognormal, mean 8.4 s, median 7.0 s, clipped 1–30 s):
+
+| Batching | Encoder cost vs real audio | Wasted |
+|---|---|---|
+| Random (the default) | **2.85×** | **64.9 %** |
+| Length-grouped megabatches | 1.03× | 3.2 % |
+| Fully sorted | 1.00× | 0 % |
+
+**This corrects the 20–40 % figure given earlier in this study — at batch 32 the real waste is ~65 %,**
+and length grouping is the single highest-return fix in §5, worth more than the optimizer and
+checkpointing changes combined.
+
+**Sorting the JSONL by duration does not achieve it.** The Trainer's default sampler reshuffles every
+epoch, discarding file order. Two changes are required:
+
+1. `TrainingArguments(train_sampling_strategy="group_by_length", length_column_name="length")`
+   (older transformers: `group_by_length=True`). This uses `LengthGroupedSampler`, which groups similar
+   lengths *while keeping a bit of randomness* — hence 1.03× rather than a fully-sorted 1.00×, and
+   without the optimisation damage of feeding perfectly sorted batches.
+2. `qwen3_asr_sft.py` drops every column outside `{"prompt", "audio", "target", "prefix_text"}`.
+   **Add `"length"` to that set** or the sampler never sees it.
+
+`scripts/prepare_asr_jsonl.py` emits the `length` field (mel frames) and prints this reminder.
+
+### Train/serve length mismatch
+
+Inference feeds audio up to **1200 s in one pass** — a 10-minute recording becomes ~7,800 audio tokens,
+while you trained on ≤30 s clips (≤390). That is a 20× extrapolation and a real length-generalisation
+risk. Since you already run pyannote diarization (port 5001), **segment at inference to the same
+5–30 s distribution you trained on** rather than relying on the built-in 1200 s chunker, whose
+low-energy split points are not speaker- or sentence-aware.
+
 ### It is full fine-tuning only
 
 **No LoRA, no layer freezing, no gradient checkpointing, no DeepSpeed/FSDP.** The script hands the whole
@@ -207,7 +275,7 @@ MFU (~110 TFLOPS effective): **~20–30 GPU-hours per epoch.**
 **That gap is the data pipeline, and most of it is recoverable.** The official loop is input-bound, not
 compute-bound: `librosa.load` runs per batch inside the collator, `load_dataset(...).map(num_proc=1)`
 preprocesses ~1.8 M rows single-threaded, and `padding=True` with `truncation=False` pads every batch to
-its longest clip with no duration bucketing.
+its longest clip with no length grouping (quantified above: ~65 % of encoder compute wasted).
 
 **Plan for 50–100 GPU-hours per epoch with a fixed pipeline; 200+ if you run the official one as-is.**
 At 2–3 epochs that is the difference between a long weekend on 8 GPUs and several weeks. Treat these as
@@ -219,12 +287,12 @@ figure.
 | Problem | Where | Fix |
 |---|---|---|
 | `librosa.load` per batch in the collator | `load_audio()` | Pre-convert to 16 kHz mono FLAC; load with `soundfile`; raise `--num_workers` to 8–16 |
-| No duration bucketing; pads to longest in batch | collator | **Sort/bucket by duration** — reclaims 20–40 % of wasted compute outright |
+| No length grouping; pads to longest in batch | sampler | **`train_sampling_strategy="group_by_length"` + `length` column** — cuts encoder waste from ~65 % to ~3 % (see audio spec above). Highest-return fix here |
 | `.map(num_proc=1)` over ~1.8 M rows | dataset pipeline | Raise `num_proc`; cache the processed dataset to disk once |
 | No gradient checkpointing exposed | `TrainingArguments` | `gradient_checkpointing=True` |
 | AdamW fp32 states dominate memory | `TrainingArguments` | `optim="adamw_bnb_8bit"` → 18.8 GB becomes 4.7 GB |
 | Plain DDP replicates 28 GB of state per GPU | `torchrun` path | Add **DeepSpeed ZeRO-2** (shards optimizer + gradients) via `TrainingArguments(deepspeed=...)`; the script hardcodes its args and does not expose it |
-| README default `--batch_size 32` | README | Unrealistic; size to your card after bucketing |
+| README default `--batch_size 32` | README | Unrealistic; size to your card after length grouping |
 
 **Multi-GPU is now required.** At 50–100 GPU-hours/epoch, a single card means weeks of wall clock.
 The script supports `torchrun` DDP, but DDP replicates full optimizer state on every GPU — fine on
@@ -349,7 +417,7 @@ your improvement denominator.
 Do not launch a 4,000 h run against an unvalidated loop. On a 200 h stratified subset:
 
 - Convert to 16 kHz mono FLAC; build JSONL with `scripts/prepare_asr_jsonl.py`.
-- Apply the §5 fixes: bucketing, workers, gradient checkpointing, 8-bit optimizer, ZeRO-2.
+- Apply the §5 fixes: length grouping, workers, gradient checkpointing, 8-bit optimizer, ZeRO-2.
 - Train the **0.6B** first purely to prove the loop, then the 1.7B.
 - **Measure actual throughput** (hours-of-audio per GPU-hour) and replace the §5 estimates with it.
 - Confirm loss decreases and Kazakh output is well-formed Cyrillic.
@@ -401,7 +469,7 @@ this size.
 | **Split leakage** from random rather than speaker/session-disjoint splits | **High** | Split by speaker *and* session; a leaked split makes every later decision wrong |
 | **Biasing over-reliance / term hallucination** | **High** | §6 curriculum: empty-context dropout + distractors; measure hallucination on all-distractor lists |
 | Pipeline input-bound, wasting ~10× GPU time | Medium–High | Phase 1 throughput gate before the full run |
-| Official script lacks ZeRO/FSDP, bucketing, checkpointing | Medium | Patches in §5 |
+| Official script lacks ZeRO/FSDP, length grouping, checkpointing | Medium | Patches in §5 |
 | Russian regression from heavy specialisation | Medium | Russian ballast; validate every checkpoint |
 | Kazakh tokenizer fertility 1.71× | Medium | Accept it; budget compute; expect Kazakh WER > Russian WER |
 | Storage/IO at ~461 GB WAV | Medium | Store FLAC (~230–280 GB) |

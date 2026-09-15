@@ -8,8 +8,11 @@ Produces the exact format consumed by QwenLM/Qwen3-ASR finetuning/qwen3_asr_sft.
 Why the extra work versus feeding the raw manifest:
 
   * The official collator uses padding=True with truncation=False, so every batch pads to
-    its longest clip. Without duration bucketing one long utterance blows up GPU memory.
-    This script drops over-long clips and sorts by duration so buckets stay tight.
+    its longest clip -- and the encoder never truncates to 30s the way Whisper does. With a
+    conversational duration spread, random batching pays ~2.8x the real audio in encoder
+    compute at batch 32. This script drops over-long clips and emits a `length` field so the
+    Trainer can group similar-length samples (see the note it prints on exit: sorting the
+    file alone is NOT enough, because the default sampler reshuffles every epoch).
   * The collator calls librosa.load per batch. Pre-resampling to 16 kHz mono WAV offline
     removes that CPU bottleneck from the training loop.
   * `prompt` is undocumented in the README but lands in the same system-role slot as the
@@ -211,6 +214,9 @@ def main() -> None:
             "audio": str(dst.resolve()),
             "text": f"language {args.language}{ASR_TEXT_TAG}{text}",
             "prompt": prompt,
+            # Mel frames at hop_length=160 / 16 kHz, i.e. the magnitude the encoder pads to.
+            # Consumed by the Trainer's length-grouped sampler.
+            "length": int(secs * 100),
             "_sec": secs,
         })
 
@@ -235,6 +241,17 @@ def main() -> None:
               f"median length {sorted(lens)[len(lens) // 2] if lens else 0} terms")
     print(f"skipped: {skipped_long} too long (>{args.max_sec}s), "
           f"{skipped_short} too short (<{args.min_sec}s), {failed} unreadable")
+
+    print(
+        "\nEach record carries a `length` field (mel frames). To actually benefit from it, the\n"
+        "training script needs two one-line patches -- file order alone is overridden because\n"
+        "the default sampler reshuffles every epoch:\n"
+        "  1. TrainingArguments: train_sampling_strategy='group_by_length',\n"
+        "     length_column_name='length'   (older transformers: group_by_length=True)\n"
+        "  2. qwen3_asr_sft.py drops unknown columns -- add 'length' to its `keep` set,\n"
+        "     or the sampler will never see it.\n"
+        "Without both, expect to pay ~2.8x the real audio in padded encoder compute."
+    )
 
 
 if __name__ == "__main__":
