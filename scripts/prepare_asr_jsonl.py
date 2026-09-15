@@ -15,6 +15,11 @@ Why the extra work versus feeding the raw manifest:
   * `prompt` is undocumented in the README but lands in the same system-role slot as the
     inference-time `context=` argument, so populating it trains context-biasing behaviour
     on your own glossary.
+  * --bias-curriculum samples that prompt instead of pasting one static list. A model always
+    trained on a perfectly matching bias list learns "on the list => in the audio" and then
+    hallucinates terms at inference, when the real list holds hundreds of mostly-absent
+    entries. The fix is empty-context dropout plus phonetically plausible distractors, with
+    list length varied so the model generalises past one list size.
 
 Input manifest: TSV or CSV with columns `audio` and `text` (optional `prompt`).
 
@@ -29,6 +34,8 @@ Usage:
 import argparse
 import csv
 import json
+import random
+import re
 import subprocess
 import wave
 from pathlib import Path
@@ -82,6 +89,34 @@ def resample(src: Path, dst: Path) -> None:
     )
 
 
+def find_terms(text: str, terms: list[str]) -> list[str]:
+    """Glossary terms actually present in this transcript (case-insensitive, word-bounded)."""
+    low = text.casefold()
+    return [t for t in terms if re.search(rf"(?<!\w){re.escape(t.casefold())}(?!\w)", low)]
+
+
+def sample_prompt(text: str, terms: list[str], rng: random.Random, args) -> str:
+    """Build one training-time bias list per the curriculum in the feasibility report, section 6."""
+    if rng.random() < args.p_empty:
+        return ""  # dropout: force the model back onto acoustic evidence
+
+    true_terms = find_terms(text, terms)
+    include_true = bool(true_terms) and rng.random() < args.p_include_true
+    shown = list(true_terms) if include_true else []
+
+    # Vary list length so a model trained on 10-term lists does not degrade on 300 at inference.
+    target = rng.randint(args.min_terms, args.max_terms)
+    pool = [t for t in terms if t not in true_terms]
+    rng.shuffle(pool)
+    shown += pool[: max(0, target - len(shown))]
+
+    if not shown:
+        return ""
+    # Shuffle so list position never correlates with whether a term is actually spoken.
+    rng.shuffle(shown)
+    return args.glossary_prefix + ", ".join(shown)
+
+
 def read_manifest(path: Path) -> list[dict]:
     delimiter = "\t" if path.suffix.lower() in {".tsv", ".tab"} else ","
     with path.open(encoding="utf-8") as fh:
@@ -105,16 +140,37 @@ def main() -> None:
                     help="newline-separated terms; injected as the `prompt` field")
     ap.add_argument("--glossary-prefix", default="Technical terms: ",
                     help="framing for the glossary; format materially affects biasing quality")
+    ap.add_argument("--bias-curriculum", action="store_true",
+                    help="sample the `prompt` per utterance (empty / true+distractors / distractors "
+                         "only) instead of pasting the whole glossary into every sample")
+    ap.add_argument("--p-empty", type=float, default=0.45,
+                    help="share of samples with an empty bias list (default 0.45)")
+    ap.add_argument("--p-include-true", type=float, default=0.7,
+                    help="given a non-empty list, chance of including the terms actually spoken")
+    ap.add_argument("--min-terms", type=int, default=5, help="shortest sampled bias list")
+    ap.add_argument("--max-terms", type=int, default=50, help="longest sampled bias list")
+    ap.add_argument("--seed", type=int, default=0, help="RNG seed for reproducible sampling")
     ap.add_argument("--max-sec", type=float, default=DEFAULT_MAX_SEC)
     ap.add_argument("--min-sec", type=float, default=DEFAULT_MIN_SEC)
     ap.add_argument("--no-sort", action="store_true", help="skip duration sorting")
     args = ap.parse_args()
 
+    terms: list[str] = []
     glossary = ""
     if args.glossary:
         terms = [t.strip() for t in args.glossary.read_text(encoding="utf-8").splitlines() if t.strip()]
         glossary = args.glossary_prefix + ", ".join(terms)
-        print(f"glossary: {len(terms)} terms, {len(glossary)} chars")
+        print(f"glossary: {len(terms)} terms")
+        if args.bias_curriculum:
+            print(f"bias curriculum: p_empty={args.p_empty} p_include_true={args.p_include_true} "
+                  f"list_len={args.min_terms}-{args.max_terms} seed={args.seed}")
+        else:
+            print(f"static glossary prompt ({len(glossary)} chars) -- pass --bias-curriculum "
+                  "before training biasing behaviour, or the model will learn to over-trust it")
+    elif args.bias_curriculum:
+        raise SystemExit("--bias-curriculum requires --glossary")
+
+    rng = random.Random(args.seed)
 
     rows = read_manifest(args.manifest)
     kept, skipped_long, skipped_short, failed = [], 0, 0, 0
@@ -144,10 +200,17 @@ def main() -> None:
             skipped_short += 1
             continue
 
+        if row.get("prompt"):
+            prompt = row["prompt"]  # explicit per-row prompt always wins
+        elif args.bias_curriculum:
+            prompt = sample_prompt(text, terms, rng, args)
+        else:
+            prompt = glossary
+
         kept.append({
             "audio": str(dst.resolve()),
             "text": f"language {args.language}{ASR_TEXT_TAG}{text}",
-            "prompt": (row.get("prompt") or glossary),
+            "prompt": prompt,
             "_sec": secs,
         })
 
@@ -158,12 +221,18 @@ def main() -> None:
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     total_sec = sum(r["_sec"] for r in kept)
+    kept_prompts = [r["prompt"] for r in kept]
     with args.out.open("w", encoding="utf-8") as fh:
         for rec in kept:
             rec.pop("_sec")
             fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
     print(f"wrote {len(kept)} utterances ({total_sec / 3600:.1f} h) -> {args.out}")
+    if args.bias_curriculum and kept_prompts:
+        empty = sum(1 for x in kept_prompts if not x)
+        lens = [x.count(",") + 1 for x in kept_prompts if x]
+        print(f"bias lists: {empty / len(kept_prompts):.0%} empty, "
+              f"median length {sorted(lens)[len(lens) // 2] if lens else 0} terms")
     print(f"skipped: {skipped_long} too long (>{args.max_sec}s), "
           f"{skipped_short} too short (<{args.min_sec}s), {failed} unreadable")
 
